@@ -1,0 +1,22 @@
+name: dolfinx-dev
+dependencies:
+  - python
+  - numpy
+  - pybind11
+  - cmake
+  - cxx-compiler
+  - pkg-config
+  - cffi
+  - boost-cpp
+  - parmetis
+  - ptscotch
+  - pugixml
+  - mpich
+  - petsc=*=complex*
+  - slepc
+  - libadios2=*=mpi*
+  - hdf5=1.12
+  - petsc4py
+  - mpi4py
+  - fenics-ufl
+  - git
