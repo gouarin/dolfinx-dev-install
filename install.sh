@@ -1,10 +1,5 @@
 #!/bin/sh
 
-# For MacOS
-SHLIB_EXT=".dylib"
-# For Linux
-SHLIB_EXT=".so"
-
 mkdir src
 
 git clone https://github.com/FEniCS/basix.git src/basix
