@@ -12,11 +12,18 @@ dependencies:
   - ptscotch
   - pugixml
   - mpich
-  - petsc=*=complex*
+  # - petsc=*=complex*
+  - petsc
   - slepc
   - libadios2=*=mpi*
+  - openblas
   - hdf5=1.12
   - petsc4py
   - mpi4py
-  - fenics-ufl
   - git
+  - fenics-ufl
+  - matplotlib
+  - gmsh
+  - python-gmsh
+  - scipy
+  - pyvista
